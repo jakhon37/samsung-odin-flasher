@@ -1,0 +1,87 @@
+{
+  "model": "SM-A102N",
+  "name": "Samsung Galaxy A10e",
+  "firmware": "A102NKOS3CWD1",
+  "images": [
+    {
+      "file": "sboot.bin",
+      "partition": "BOOTLOADER",
+      "sha256": "ac66458a472c7b55073ab79f5b911d48422632f7f1e7ca131bd0feb0ca3781c8"
+    },
+    {
+      "file": "param.bin",
+      "partition": "PARAM",
+      "sha256": "065ae85c53aba89728be4205a8b132db91d69f00f0407b005e300b61b9ae9e1d"
+    },
+    {
+      "file": "cm.bin",
+      "partition": "CM",
+      "sha256": "e911c25a4f90a4c5e347b8b1e06060a4edf65d45ad7a76cf5982305003825eff"
+    },
+    {
+      "file": "vbmeta.img",
+      "partition": "VBMETA",
+      "sha256": "cacdb33b9a881d65cbaa443c39a6b9c04ba60f40d476d2b648190227ce26c9f0"
+    },
+    {
+      "file": "boot.img",
+      "partition": "BOOT",
+      "sha256": "8ac3f54221b740f9ed64d0539d2374a90acf1e804ec7e926e87c95d7638c289b"
+    },
+    {
+      "file": "recovery.img",
+      "partition": "RECOVERY",
+      "sha256": "5f2a167c96c821ef03bcaf8482f1de949ad62c951008af43ef01ed014fa5b9bd"
+    },
+    {
+      "file": "dt.img",
+      "partition": "DTB",
+      "sha256": "5999cdf52b02da9018c0a887528c80acbec682505634142dd782f21a7039f3cb"
+    },
+    {
+      "file": "dtbo.img",
+      "partition": "DTBO",
+      "sha256": "a293e1fa2dcd645a761f3c7940e4edad1c67e66b5add37da580f0c4187c8da7b"
+    },
+    {
+      "file": "system.img",
+      "partition": "SYSTEM",
+      "sha256": "fe3bad9083d7863e55bd8a88d0a75ae9c166a43b9d7672e8947c6cf87597abd4"
+    },
+    {
+      "file": "vendor.img",
+      "partition": "VENDOR",
+      "sha256": "e9356e37c79417ac7af443db41f530df9acdc4d4ca1231b8be223716aa7e33b8"
+    },
+    {
+      "file": "userdata.img",
+      "partition": "USERDATA",
+      "sha256": "704b1a03a35f1aed0c15ae297c8551ffd3583d8e14ab8cc0ab88533e82907ca6"
+    },
+    {
+      "file": "modem.bin",
+      "partition": "RADIO",
+      "sha256": "6a00432a5b11c87eeb88db0599434a6915c2b72008a05895367a6663357a8cee"
+    },
+    {
+      "file": "modem_debug.bin",
+      "partition": "CP_DEBUG",
+      "sha256": "55e697744931c9b009e2b6ad59b62368f1ede21755b5553530d40a3722332fdd"
+    },
+    {
+      "file": "cache.img",
+      "partition": "CACHE",
+      "sha256": "9e785ea6da8ec2656b249af19b05aeb53a005fc713505a7d99d1a2c9814dbf14"
+    },
+    {
+      "file": "omr.img",
+      "partition": "OMR",
+      "sha256": "a52008d68b6e468c4cd655f128ae88d5966aa83accd48930e3f51089319dd0c4"
+    },
+    {
+      "file": "product.img",
+      "partition": "PRODUCT",
+      "sha256": "e99dfaad2ed9a191ed79d76f0e3a19ae86a3d0f3cc5b8257d7d158fc409aa5d0"
+    }
+  ]
+}
