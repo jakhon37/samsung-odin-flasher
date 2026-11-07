@@ -111,7 +111,7 @@ Here's the sequence on the SM-A102N, which was part-flashed and stuck on Samsung
 | Next | Listening for 25 seconds | Nothing arrives | The phone isn't slow. It hasn't acted on the command |
 | Next | One empty packet | Instant reply `65 00 00 00 00 20 00 00`: an 8192-byte table | **The cause is confirmed** |
 | 06:33 | First full flash, with this tool | 8 images accepted, then `ENOMEM` during SYSTEM | The protocol works. The failure is on the PC |
-| 06:48 | Second run, from SYSTEM, 64 KiB writes | All remaining images accepted in 155 seconds | Finished |
+| 06:48 | Second run, from SYSTEM, 64 KiB writes | All remaining images accepted in 155 seconds | Finished. The phone booted and works |
 
 ### Dead ends worth knowing
 

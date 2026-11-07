@@ -67,7 +67,7 @@ python3 flasher/odin_flash.py --fresh --device devices/sm-xxxxx --images firmwar
 
 | What | Status |
 |---|---|
-| SM-A102N: USB, session, partition table read and flashing all 16 images | Done on a real phone, with the 2026-11-04 version of the flash code |
+| SM-A102N: USB, session, partition table read, flashing all 16 images and booting afterwards | Done on a real phone, with the 2026-11-04 version of the flash code |
 | Device folders, automatic USB endpoints and the confirmation prompt | Simulator and unit tests only, since these were added after that flash |
 | `new_device.py` | Reproduced the SM-A102N's exact image order and hashes from its firmware |
 | `--dump-pit` as a separate command | Same read code as the real flash, not run on its own on a phone |

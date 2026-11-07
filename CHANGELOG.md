@@ -14,7 +14,7 @@ These changes passed the simulator and unit tests. They haven't been run on a ph
 
 ## 2026-11-04: first working flash
 
-- Flashed all 16 images of `A102NKOS3CWD1` to an SM-A102N, after Heimdall 2.0.2 and Thor 1.1.0 failed.
+- Flashed all 16 images of `A102NKOS3CWD1` to an SM-A102N, after Heimdall 2.0.2 and Thor 1.1.0 failed. The phone booted and works.
 - Send a zero-length packet after each command, which the phone needs once the part size is set.
 - Send USB data in 64 KiB chunks after a 1 MiB write failed with `ENOMEM` during `SYSTEM`.
 - Added `--from` to continue at a partition without rewriting the bootloader.

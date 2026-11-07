@@ -109,7 +109,7 @@ This needs no phone and takes about a second. Add a folder of real images to run
 python3 tests/test_odin_flash.py firmware/img
 ```
 
-On real hardware, an SM-A102N accepted all 16 images and then restarted. [What's been tested](docs/new-model.md#whats-been-tested) has the details for other models.
+On real hardware, an SM-A102N stuck on Samsung's firmware error screen accepted all 16 images, booted and now works normally. [What's been tested](docs/new-model.md#whats-been-tested) has the details for other models.
 
 ## Safety
 
