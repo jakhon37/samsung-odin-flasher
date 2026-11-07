@@ -121,7 +121,10 @@ This reinstalls the phone's whole operating system. It can fix a phone that a re
 | **Smart Switch** (Windows or Mac) | Official. Can reinstall firmware itself, with no download needed. |
 | [Bifrost](https://github.com/zacharee/Bifrost) | Open-source tool that downloads firmware from Samsung's servers |
 | [samloader](https://github.com/martinetd/samloader) | Open-source command-line downloader. Updated less often. |
-| Firmware websites | Common, but not official. Check the file's checksum, and avoid sites that push extra tools. |
+| [SamFW](https://samfw.com/) | Unofficial website. The SM-A102N firmware in this repository's guides came from here. Use it for firmware downloads only, not its other tools. |
+| Other firmware websites | Common, but not official. Avoid sites that push extra tools. |
+
+**Check any download from a website:** run `tools/check_firmware.sh` on it. This catches a damaged file, but the checksum comes inside the same file, so it can't prove the file came from Samsung. The phone's own signature check is the stronger protection.
 
 **Choosing a region (CSC):** use the same one as your phone, such as `KOO` in Korea. Changing region is possible on some phones, but it isn't needed for a repair.
 
