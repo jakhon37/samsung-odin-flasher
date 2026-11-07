@@ -1,4 +1,15 @@
-rpi_yoct/cache/
-rpi_yoct/downloads/
-rpi_yoct/sstate-cache/
-rpi_yoct/tmp/
+# Firmware is Samsung's and is several GB. Never commit it.
+firmware/
+*.tar
+*.tar.md5
+*.lz4
+*.img
+*.bin
+
+# Phone-specific output
+*.log
+
+__pycache__/
+*.pyc
+.idea/
+.vscode/
